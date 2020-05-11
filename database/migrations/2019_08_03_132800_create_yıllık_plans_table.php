@@ -15,7 +15,7 @@ class CreateYıllıkPlansTable extends Migration
     {
         Schema::create('yıllık_plans', function (Blueprint $table) {
             $table->bigIncrements('yıllık_plan_id');
-            $table->dateTime('baslangıc_tarihi');
+            $table->date('baslangıc_tarihi');
             $table->timestamps();
         });
     }
