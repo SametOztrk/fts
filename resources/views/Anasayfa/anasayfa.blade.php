@@ -293,7 +293,9 @@ var a;
              
                     var response =JSON.parse(update);
 
-                      
+                     
+                    console.log(response)
+
                     if(response.status)
                     {   
                         $('#table').html('');

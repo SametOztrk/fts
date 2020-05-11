@@ -17,7 +17,7 @@ class CreateSeferlersTable extends Migration
             $table->bigIncrements('sefer_id');
             $table->bigInteger('ucak_id');
             $table->bigInteger('ucus_id');
-            $table->time('saat');
+            $table->bigInteger('ücret');
             $table->timestamps();
         });
     }
